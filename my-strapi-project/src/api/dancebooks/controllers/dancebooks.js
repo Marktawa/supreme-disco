@@ -1,21 +1,16 @@
 'use strict';
 
-module.exports = {
-  async index(ctx) {
-    try {
-      const entries = await strapi.db.query('api::book.book').findMany({
-        where: {
-          authors: {
-            hobby: {
-              $contains: 'Dance',
-            },
+ module.exports = {
+   async index(ctx, next) {
+    const entries = await strapi.entityService.findMany('api::book.book', {
+      filters: {
+        authors: {
+          hobby: {
+            $contains: 'Dance'
           },
-        },
-      });
-
-      ctx.body = entries;  // Send the query results
-    } catch (err) {
-      ctx.throw(500, 'Failed to fetch dance books');
-    }
-  },
+        }
+      },
+    });
+    ctx.body = entries;
+  }
 };
