@@ -3,7 +3,7 @@
 module.exports = {
   async index(ctx) {
     try {
-      const books = await strapi.db.query('api::book.book').findMany({
+      const entries = await strapi.db.query('api::book.book').findMany({
         where: {
           authors: {
             hobby: {
@@ -13,7 +13,7 @@ module.exports = {
         },
       });
 
-      ctx.body = books;  // Send the query results
+      ctx.body = entries;  // Send the query results
     } catch (err) {
       ctx.throw(500, 'Failed to fetch dance books');
     }
