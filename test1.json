@@ -1,0 +1,44 @@
+{
+    "data": [
+        {
+            "id": 2,
+            "documentId": "qzxefnhupjx38bp64o64lcqf",
+            "title": "How to Play",
+            "createdAt": "2025-01-16T05:48:21.430Z",
+            "updatedAt": "2025-01-16T05:48:21.430Z",
+            "publishedAt": "2025-01-16T05:48:21.442Z"
+        },
+        {
+            "id": 4,
+            "documentId": "cjgyhl8iiciod2wou7kii2td",
+            "title": "How to Sing",
+            "createdAt": "2025-01-16T05:49:00.545Z",
+            "updatedAt": "2025-01-16T05:49:00.545Z",
+            "publishedAt": "2025-01-16T05:49:00.550Z"
+        },
+        {
+            "id": 6,
+            "documentId": "mfnvnveobtf4fzporv9k2z3x",
+            "title": "How to Dance",
+            "createdAt": "2025-01-16T05:49:27.517Z",
+            "updatedAt": "2025-01-16T05:49:27.517Z",
+            "publishedAt": "2025-01-16T05:49:27.522Z"
+        },
+        {
+            "id": 10,
+            "documentId": "kte9yxf6oami3680br3gapfl",
+            "title": "How to be Flexible",
+            "createdAt": "2025-01-16T05:49:53.037Z",
+            "updatedAt": "2025-01-16T06:06:43.838Z",
+            "publishedAt": "2025-01-16T06:06:43.851Z"
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "page": 1,
+            "pageSize": 25,
+            "pageCount": 1,
+            "total": 4
+        }
+    }
+}

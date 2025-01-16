@@ -33,3 +33,19 @@ Installed Strapi with the following settings:
 Registered Admin user with:
 User name: John Doe
 Password: JohnDoe1
+
+```
+curl localhost:1337/api/books?filters\[authors\][hobby][$contains]=dance > test1.json
+```
+
+```
+curl localhost:1337/api/books?filters%5Bauthors%5D%5Bhobby%5D%5B%24contains%5D=dance > test2.json
+```
+
+```
+curl --globoff localhost:1337/api/books?filters\[authors\][hobby][$contains]=dance > test3.json
+```
+
+```bash
+curl localhost:1337/api/dance-books > test4.json
+```

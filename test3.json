@@ -1,0 +1,28 @@
+{
+    "data": [
+        {
+            "id": 10,
+            "documentId": "kte9yxf6oami3680br3gapfl",
+            "title": "How to be Flexible",
+            "createdAt": "2025-01-16T05:49:53.037Z",
+            "updatedAt": "2025-01-16T06:06:43.838Z",
+            "publishedAt": "2025-01-16T06:06:43.851Z"
+        },
+        {
+            "id": 6,
+            "documentId": "mfnvnveobtf4fzporv9k2z3x",
+            "title": "How to Dance",
+            "createdAt": "2025-01-16T05:49:27.517Z",
+            "updatedAt": "2025-01-16T05:49:27.517Z",
+            "publishedAt": "2025-01-16T05:49:27.522Z"
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "page": 1,
+            "pageSize": 25,
+            "pageCount": 1,
+            "total": 2
+        }
+    }
+}
