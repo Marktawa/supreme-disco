@@ -53,3 +53,7 @@ curl localhost:1337/api/dance-books > test4.json
 ```bash
 curl localhost:1337/api/dance-books > test5.json
 ```
+
+```bash
+curl localhost:1337/api/dance-books > test6.json
+```
